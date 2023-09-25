@@ -1,0 +1,134 @@
+@font-face {
+    font-family: "Cinzel_M";
+    src: url(../font/Cinzel-Medium.ttf);
+}
+
+@font-face {
+    font-family: "Poppins_R";
+    src: url(../font/Poppins-Regular.ttf);
+}
+@font-face {
+    font-family: "Poppins_SB";
+    src: url(../font/Poppins-Bold.ttf);
+}
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+nav {
+    font-family: "Cinzel_M";
+    padding: 25px 0px 25px 100px;
+    color: #999;
+}
+
+.hero {
+    background: url(../img/3015f19d657c9e7551017974e9863b37.png) center / cover no-repeat;
+    width: 100%;
+    min-height: 600px;
+    color: white;
+    text-align: center;
+    font-family: "Cinzel_M";
+    display: table;
+}
+
+.hero h1 {
+    display: table-cell;
+    vertical-align: middle;
+}
+
+.upper__text {
+    text-align: center;
+    width: 70%;
+    margin: 0 auto;
+}
+
+.upper__text h2 {
+    margin: 60px;
+    font-family: "Cinzel_M";
+    font-size: 24px;
+}
+
+.upper__text p {
+    font-family: "Poppins_R";
+    padding:0 20px;
+}
+
+.boxes {
+    text-align: center;
+    padding: 50px;
+}
+
+.boxes img {
+    display: inline-block;
+    width: 360px;
+    padding: 10px 20px;
+}
+
+
+.tour__dates {
+    text-align: center;
+    padding: 0 150px;    
+}
+
+.tour__dates h2 {   
+    padding-bottom: 50px;
+    font-family: "Cinzel_M";
+    font-size: 24px;
+}
+
+.tour__dates ul {
+    text-align: start;
+    padding:0 80px;
+    list-style-type: none;
+    font-family: "Poppins_R";
+    color: #333333;
+}
+
+.tour__dates ul li {
+    line-height: normal;
+    font-size: 16px;
+    padding-bottom: 25px;
+}
+
+.tour__dates li span {
+    color: #F00;
+}
+
+.tour__dates li p {
+    color: #008000;
+    display: inline;
+}
+
+footer {
+    text-align: center;
+    font-family: "Cinzel_M";
+    font-size: 24px;
+    padding: 50px;
+    border-top: 1px solid #ccc;
+}
+
+footer article {
+    font-size: 18px;
+}
+
+footer article p{
+    display: inline-block;
+    font-family: "Poppins_SB";
+    font-weight: 400;
+    padding: 10px 0;
+}
+
+footer article p:nth-of-type(1) {
+    color: #3B5998;
+}
+
+footer article p:nth-of-type(2) {
+    color: #1DA1F2;
+}
+
+footer article p:nth-of-type(3) {
+    color: #C32AA3;
+}
