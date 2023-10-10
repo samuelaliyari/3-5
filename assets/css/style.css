@@ -11,33 +11,77 @@
     font-family: "Poppins_SB";
     src: url(../font/Poppins-Bold.ttf);
 }
+/* ====================================================================
+                                RESET
+=====================================================================*/
+
+
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
 
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+img {
+    display: block;
+    max-width: 100%;
+}
+
+/* ====================================================================
+                                HEADER
+=====================================================================*/
+
+
+
+
 
 nav {
     font-family: "Cinzel_M";
-    padding: 25px 0px 25px 100px;
-    color: #999;
-}
-
-.hero {
-    background: url(../img/3015f19d657c9e7551017974e9863b37.png) center / cover no-repeat;
     width: 100%;
-    min-height: 600px;
+    display: flex;
+    padding: 18px 50px;
+    background-color: rgba(0, 0, 0, 0.774);
+    position: sticky;
+    top: 0px;
     color: white;
-    text-align: center;
-    font-family: "Cinzel_M";
-    display: table;
 }
 
-.hero h1 {
-    display: table-cell;
-    vertical-align: middle;
+
+nav ul {
+    display: flex;
+    flex: 1;
+    list-style-type: none;
+    justify-content: flex-end;
+    gap: 120px;
 }
+
+header {
+    background: url(../img/bike.jpeg) center / cover no-repeat;
+    height: 100vh;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+header div {
+    width: 30%;
+    text-align: center;
+}
+
+header h1 {
+    margin: 40px;
+}
+
+header p {
+    padding-bottom: 30px;
+}
+
 
 .upper__text {
     text-align: center;
@@ -58,7 +102,11 @@ nav {
 
 .boxes {
     text-align: center;
-    padding: 50px;
+    padding: 30px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    padding-inline: 50px;
+    gap: 80px;
 }
 
 .boxes img {
@@ -67,15 +115,19 @@ nav {
     padding: 10px 20px;
 }
 
-
+.box-container > div {
+    text-align: center;
+    padding-top: 150px;
+}
 .tour__dates {
     text-align: center;
     padding: 0 150px;    
 }
 
-.tour__dates h2 {   
+.tour__dates h2 {  
+    padding-top: 20px;
     padding-bottom: 50px;
-    font-family: "Cinzel_M";
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     font-size: 24px;
 }
 
@@ -83,7 +135,7 @@ nav {
     text-align: start;
     padding:0 80px;
     list-style-type: none;
-    font-family: "Poppins_R";
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     color: #333333;
 }
 
